@@ -43,7 +43,7 @@ $recipes = [
                     <i><?php echo $recipe['author']; ?></i>
                 </article>
             <?php endif; ?>
-        <?php endforeach ?>
+        <?php endforeach; ?>
     </div>   
 </body>
 </html>

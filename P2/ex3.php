@@ -7,5 +7,5 @@ $recipe = [
 
 foreach($recipe as $property => $propertyValue)
 {
-    echo '[' . $property . '] vaut ' . $propertyValue . PHP_EOL;
+    echo '[' . $property . '] vaut ' . $propertyValue . nl2br("\n"); //! PHP_EOL doesn't work
 }
