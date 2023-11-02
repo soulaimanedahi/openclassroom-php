@@ -57,7 +57,7 @@ function display_recipe(array $recipe) : string
         $recipe_content .= '</article>';
     }
     
-    return $recipe;
+    return $recipe_content;
 }
 
 function display_author(string $authorEmail, array $users) : string

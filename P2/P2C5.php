@@ -3,7 +3,7 @@
 $users = [
     [
         'full_name' => 'Mickaël Andrieu',
-        'email' => 'mickael.andrieu@exemple.com'
+        'email' => 'mickael.andrieu@exemple.com',
         'age' => 34,
     ],
     [
@@ -41,7 +41,7 @@ $recipes = [
         'title' => 'Salade Romaine',
         'recipe' => '',
         'author' => 'laurene.castor@exemple.com',
-        'is_enablad' => false,
+        'is_enabled' => false,
     ],
 ];
 
@@ -57,7 +57,7 @@ function display_recipe(array $recipe) : string
         $recipe_content .= '</article>';
     }
     
-    return $recipe;
+    return $recipe_content;
 }
 
 function display_author(string $authorEmail, array $users) : string
